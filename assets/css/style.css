@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*utitlity*/
+.container-80{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h-400{
+    height: 400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.col-pink{
+    background-color: pink;
+}
+
+.col-blue{
+    background-color: lightblue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+/* .bg-gray{
+    background-color: lightgray;
+} */
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+a{
+    color: white;
+}
+
+#login{
+    color: #2A5EE7;
+    background-color: white;
+    border: 5px white solid;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 20px;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    padding-bottom: 20px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: #2A5EE7;
+    padding: 10px 0;
+}
+
+nav div{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+nav div ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#intro-discord div{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#scarica1{
+    color: #2A5EE7;
+    background-color: white;
+    border: 5px white solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+#scarica2{
+    color: white;
+    background-color: #23272A;
+    border: 5px #23272A solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.title1{
+    text-align: center;
+    color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 50px;
+
+}
+
+.paragrafo1{
+    text-align: center;
+    color: white;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: larger;
+}
+
+.col-70{
+    flex-basis: 70%;
+}
+
+.col-30{
+    flex-basis: 30%;
+}
+
+main section {
+    padding: 20px 0;
+}
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+footer{
+    background-color: #0d0d0d;
+    padding: 20px 0;
+}
+
+footer #footer-top > div{
+    background-color: lightseagreen;
+    flex-basis: calc(60% / 4);
+    border: 1px dashed white;
+}
+
+footer #footer-top div:first-child{
+    background-color: lightcoral;
+    flex-basis: 40%;
+}
+
+footer #footer-social{
+    justify-content: space-between;
+
+}
+
+footer section a{
+    color: white;
+}
+
+hr{
+    margin: 20px 0;
+}
+
