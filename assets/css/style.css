@@ -125,13 +125,23 @@ nav div ul li{
 }
 #scarica3{
     color: white;
-    background-color: #2A5EE7;
-    border: 5px #2A5EE7 solid;
+    background-color: #8EA1E1;
+    border: 5px #8EA1E1 solid;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
     margin-left: 44%;
 
+}
+
+#registrati{
+    color: white;
+    background-color: #8EA1E1;
+    border: 4px #8EA1E1 solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-top: 5px;
 }
 
 .title1{
@@ -207,6 +217,7 @@ footer #footer-top div:first-child{
 
 footer #footer-social{
     justify-content: space-between;
+    margin-bottom: 15%;
 
 }
 
