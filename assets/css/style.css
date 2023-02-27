@@ -36,10 +36,13 @@ a{
     background-color: green;
 } */
 
-/* .bg-gray{
+.bg-gray{
     background-color: #F6F6F6;
-} */
+}
 
+.bg-white{
+    background-color: white;
+}
 .order-1{
     order: 1;
 }
@@ -193,16 +196,16 @@ nav div ul li{
 }
 
 main section {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
-main section:nth-child(even){
+/* main section:nth-child(even){
     background-color: #F6F6F6;
-}
+} */
 
 footer{
     background-color: #23272A;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 footer #footer-top > div{
@@ -262,3 +265,12 @@ footer{
     padding-right: 5%;
 }
 
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 150px;
+    filter: invert(99%) sepia(67%) saturate(41%) hue-rotate(297deg) brightness(114%) contrast(93%);
+}
+
+.rotate180{
+    transform: rotate(180deg);
+}
